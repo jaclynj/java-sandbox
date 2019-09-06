@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="guice-4.2.0_f30a85e">
-    <CLASSES>
-      <root url="jar:///private/var/tmp/_bazel_jackie-mbp/db31af81ae85110c1b92e4a7381eb5bc/execroot/__main__/external/jooby/v1/https/jcenter.bintray.com/com/google/inject/guice/4.2.0/guice-4.2.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

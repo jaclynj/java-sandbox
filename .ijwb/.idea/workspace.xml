@@ -8,11 +8,15 @@
     <option name="projectViewFile" value="$PROJECT_DIR$/.bazelproject" />
     <option name="workspaceRoot" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="BlazeSyncStatusState">
-    <option name="dirty" value="true" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="463fc9b2-ffb1-4778-b0b1-a7c4f1eea94d" name="Default Changelist" comment="" />
+    <list default="true" id="463fc9b2-ffb1-4778-b0b1-a7c4f1eea94d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/funzy_0_1_0_b3c74d17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/guava_25_1_jre_f3d0e3cc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/guice_4_2_0_f30a85e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/SandboxServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/SandboxServer.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/BUILD">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="45">
+              <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -33,12 +37,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/SandboxServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
               <folding>
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -75,6 +88,9 @@
       <find>run(</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -86,10 +102,11 @@
         <option value="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main.java.dev.jaclyn.sandbox/base/SandboxServer.java" />
         <option value="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/base/SandboxServer.java" />
         <option value="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/BUILD" />
-        <option value="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/SandboxServer.java" />
         <option value="$PROJECT_DIR$/../WORKSPACE" />
-        <option value="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/BUILD" />
         <option value="$PROJECT_DIR$/.bazelproject" />
+        <option value="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/BUILD" />
+        <option value="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/SandboxServer.java" />
+        <option value="$PROJECT_DIR$/../.gitignore" />
       </list>
     </option>
   </component>
@@ -98,6 +115,7 @@
     <option name="width" value="1440" />
     <option name="height" value="802" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -144,6 +162,15 @@
           </expand>
           <select />
         </subPane>
+        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
+          <expand>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
@@ -157,32 +184,111 @@
             <path>
               <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="~/Development/experiments/bazel-java-graphql-sandbox/java-sandbox/modules/jaclyn-bazel-graphql-sandbox" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="~/Development/experiments/bazel-java-graphql-sandbox/java-sandbox/modules/jaclyn-bazel-graphql-sandbox" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="~/Development/experiments/bazel-java-graphql-sandbox/java-sandbox/modules/jaclyn-bazel-graphql-sandbox" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dev" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dev" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jaclyn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dev" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jaclyn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dev" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jaclyn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="base" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name=".workspace" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name=".workspace" type="616d4139:PackageViewModuleNode" />
+              <item name="dev" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name=".workspace" type="616d4139:PackageViewModuleNode" />
+              <item name="dev" type="1f31426a:PackageElementNode" />
+              <item name="jaclyn" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name=".workspace" type="616d4139:PackageViewModuleNode" />
+              <item name="dev" type="1f31426a:PackageElementNode" />
+              <item name="jaclyn" type="1f31426a:PackageElementNode" />
+              <item name="sandbox" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name=".workspace" type="616d4139:PackageViewModuleNode" />
+              <item name="dev" type="1f31426a:PackageElementNode" />
+              <item name="jaclyn" type="1f31426a:PackageElementNode" />
+              <item name="sandbox" type="1f31426a:PackageElementNode" />
+              <item name="base" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jaclyn-bazel-graphql-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="bazel-java-graphql-sandbox" type="34d14456:WorkspaceRootNode" />
+            </path>
+            <path>
+              <item name="jaclyn-bazel-graphql-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bazel-java-graphql-sandbox" type="34d14456:WorkspaceRootNode" />
+              <item name="jaclyn-bazel-graphql-sandbox" type="9fb85e4c:BlazePsiDirectoryRootNode" />
             </path>
             <path>
               <item name="jaclyn-bazel-graphql-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -208,8 +314,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox" />
       <recent name="$PROJECT_DIR$/../" />
+      <recent name="$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox" />
       <recent name="$PROJECT_DIR$/../java-sandbox/modules" />
     </key>
   </component>
@@ -274,12 +380,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567709614227</updated>
-      <workItem from="1567709615447" duration="11796000" />
+      <workItem from="1567709615447" duration="12451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11796000" />
+    <option name="totallyTimeSpent" value="12451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="94" width="1440" height="802" extended-state="0" />
@@ -293,13 +399,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.4170243" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Blaze Console" order="2" sideWeight="0.5071531" side_tool="true" visible="true" weight="0.4661972" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.56151646" visible="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Blaze Console" order="2" sideWeight="0.43848354" side_tool="true" visible="true" weight="0.32957748" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Blaze Problems" order="7" sideWeight="0.49284694" visible="true" weight="0.4661972" />
+      <window_info anchor="bottom" id="Blaze Problems" order="7" sideWeight="0.49284694" weight="0.4661972" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Run" order="10" />
@@ -375,17 +481,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/BUILD">
+    <entry file="file://$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/BUILD">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="45">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/src.main.java.dev.jaclyn.sandbox.base.SandboxServer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>src.main.java.dev.jaclyn.sandbox.base.SandboxServer</OriginalElement>
+          <nodes>
+            <node x="" y="">src.main.java.dev.jaclyn.sandbox.base.SandboxServer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="70.5" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/SandboxServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding>
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
@@ -393,10 +517,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/BUILD">
+    <entry file="file://$PROJECT_DIR$/../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java/dev/jaclyn/sandbox/base/BUILD">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>

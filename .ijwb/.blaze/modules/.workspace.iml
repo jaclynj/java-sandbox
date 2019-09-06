@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../java-sandbox/modules/jaclyn-bazel-graphql-sandbox">
-      <sourceFolder url="file://$MODULE_DIR$/../../../java-sandbox/modules/jaclyn-bazel-graphql-sandbox" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../java-sandbox/modules/jaclyn-bazel-graphql-sandbox/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
