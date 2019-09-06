@@ -1,0 +1,8 @@
+directories:
+  modules/sandbox-main
+
+targets:
+  //modules/sandbox-main/...
+
+additional_languages:
+  java
