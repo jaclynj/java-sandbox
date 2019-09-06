@@ -1,4 +1,3 @@
-// package src.main.java.dev.jaclyn.sandbox.base;
 package dev.jaclyn.sandbox.base;
 
 import org.jooby.Jooby;

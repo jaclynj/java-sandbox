@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+BAZEL_VERSION="0.29.0"
+
+if [ -f "${BAZEL_TARGET_PATH}" ]; then
+  exec -a "$0" "${BAZEL_TARGET_PATH}" "$@"
+  else
+echo "Bazel command failed: 'BAZEL_TARGET_PATH' environment variable not set.
+
+This project uses Bazel version ${BAZEL_VERSION}.
+
+In order to support multiple Bazel version installs,
+you must set a "BAZEL_TARGET_PATH" to the location of your 0.29.0+ 'bazel-real' file.
+
+You may want to set it in your ./bash_profile:
+export BAZEL_TARGET_PATH=~/.bazel_installations/0.29.0/bin/bazel-real"
+fi
