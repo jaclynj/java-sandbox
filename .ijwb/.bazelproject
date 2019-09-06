@@ -1,0 +1,8 @@
+directories:
+  java-sandbox/modules/jaclyn-bazel-graphql-sandbox
+
+targets:
+  //java-sandbox/modules/jaclyn-bazel-graphql-sandbox/...:all
+
+additional_languages:
+  java
