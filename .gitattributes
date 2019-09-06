@@ -26,3 +26,7 @@
 *.jar           binary
 *.so            binary
 *.war           binary
+
+# Bazel related files
+BUILD          text diff=java
+WORKSPACE      text diff=java
